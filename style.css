@@ -1,0 +1,18 @@
+:root {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #F5F4F0;
+}
+
+#page {
+  box-sizing: border-box;
+  width: 1120px;
+  padding: 0;
+  margin: 80px auto;
+}
+
+img {
+  border-radius: 28px;
+}
