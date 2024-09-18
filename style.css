@@ -1,5 +1,6 @@
 :root {
   font-family: "Open Sans", sans-serif;
+  line-height: auto;
 }
 
 body {
@@ -15,4 +16,64 @@ body {
 
 img {
   border-radius: 28px;
+}
+
+h1 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #E1624F;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#subtitle {
+  text-align: center;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#topico {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+h2, h3, #topico {
+  color: #1B1B1B;
+}
+
+p {
+  font-size: 16px;
+  color: #333333;
+}
+
+#bom-para {
+  font-weight: bold;
+}
+
+li {
+  font-weight: bold;
+  color: #0C51A7;
+}
+
+#casais {
+  color: #591B98;
+}
+
+#familias {
+  color: #E5245E;
+}
+
+#orcamento {
+  color: #E95E10;
+}
+
+#fim {
+  text-align: center;
 }
