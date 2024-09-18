@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 :root {
   font-family: "Open Sans", sans-serif;
   line-height: auto;
@@ -14,14 +18,17 @@ body {
   margin: 80px auto;
 }
 
-img {
+#imagem-principal {
   border-radius: 28px;
+  margin-bottom: 24px;
+  margin-top: 40px;
 }
 
 h1 {
   font-size: 16px;
   text-transform: uppercase;
   color: #E1624F;
+  margin-bottom: 8px;
 }
 
 h2 {
@@ -32,16 +39,44 @@ h2 {
 #subtitle {
   text-align: center;
   font-style: italic;
+  margin-bottom: 40px;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9;
+}
+
+#pontos-turisticos {
+  margin-top: 64px;
+  margin-bottom: 40px;
 }
 
 h3 {
   font-size: 32px;
   font-weight: bold;
+  margin-top: 2px;
+  margin-bottom: 8px;
+}
+
+#descubra {
+  margin-bottom: 16px;
+}
+
+img {
+  margin-bottom: 20px;
+  margin-top: 48px;
+  border-radius: 28px;
 }
 
 #topico {
   font-size: 28px;
   font-weight: bold;
+  list-style-position: inside;
+  margin-left: 7px;
+  margin-bottom: 4px;
 }
 
 h2, h3, #topico {
@@ -55,23 +90,33 @@ p {
 
 #bom-para {
   font-weight: bold;
+  margin-top: 20px;
 }
 
 li {
   font-weight: bold;
   color: #0C51A7;
+  list-style-position: inside;
+  margin-left: 7px;
+}
+
+ul li::marker {
+  color: #333333;
 }
 
 #casais {
   color: #591B98;
+  list-style-position: inside;
 }
 
 #familias {
   color: #E5245E;
+  list-style-position: inside;
 }
 
 #orcamento {
   color: #E95E10;
+  list-style-position: inside;
 }
 
 #fim {
