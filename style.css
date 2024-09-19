@@ -18,7 +18,7 @@ body {
   margin: 80px auto;
 }
 
-#imagem-principal {
+#conheca img {
   border-radius: 28px;
   margin-bottom: 24px;
   margin-top: 40px;
@@ -121,4 +121,18 @@ ul li::marker {
 
 #fim {
   text-align: center;
+}
+
+footer {
+  color: #333333;
+  font-family: "Alice", serif;
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 48px;
+  margin-top: 65px;
+}
+
+footer img {
+  vertical-align: middle;
+  padding-bottom: 30px;
 }
